@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70001" started-at="2019-02-22T10:48:11Z" finished-at="2019-02-22T10:49:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70001" started-at="2019-02-22T10:48:11Z" finished-at="2019-02-22T10:49:21Z">
+      <class name="scripts.Activation">
+        <test-method status="PASS" signature="preCondition(org.testng.xml.XmlTest)[pri:0, instance:scripts.Activation@3043fe0e]" name="preCondition" is-config="true" duration-ms="9821" started-at="2019-02-22T10:48:11Z" finished-at="2019-02-22T10:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@9642349c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="VerifyingtheBasicFunctionalityofActivation()[pri:0, instance:scripts.Activation@3043fe0e]" name="VerifyingtheBasicFunctionalityofActivation" duration-ms="60159" started-at="2019-02-22T10:48:21Z" finished-at="2019-02-22T10:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingtheBasicFunctionalityofActivation -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.Activation@3043fe0e]" name="postCondition" is-config="true" duration-ms="0" started-at="2019-02-22T10:49:21Z" finished-at="2019-02-22T10:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.Activation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

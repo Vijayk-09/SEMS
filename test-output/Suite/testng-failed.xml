@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestFF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="scripts.Entitlment">
+        <methods>
+          <include name="preCondition"/>
+          <include name="CreatingEntitlement"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- scripts.Entitlment -->
+    </classes>
+  </test> <!-- TestFF(failed) -->
+</suite> <!-- Failed suite [Suite] -->
